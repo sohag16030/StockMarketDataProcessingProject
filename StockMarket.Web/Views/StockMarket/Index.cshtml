@@ -1,0 +1,81 @@
+﻿@model StockModel
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1>DataTables</h1>
+                </div>
+                @*<div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active">DataTables</li>
+                        </ol>
+                    </div>*@
+            </div>
+        </div><!-- /.container-fluid -->
+    </section>
+
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Stock Market Data</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table id="example1" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>date</th>
+                                    <th>trade_code</th>
+                                    <th>high</th>
+                                    <th>low</th>
+                                    <th>open</th>
+                                    <th>close</th>
+                                    <th>volume</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in @Model.getTableData())
+                                {
+                                    <tr>
+                                        <td>@item.date</td>
+                                        <td>@item.trade_code</td>
+                                        <td>@item.high</td>
+                                        <td>@item.low</td>
+                                        <td>@item.open</td>
+                                        <td>@item.close</td>
+                                        <td>@item.volume</td>
+                                    </tr>
+                                }
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th>date</th>
+                                    <th>trade_code</th>
+                                    <th>high</th>
+                                    <th>low</th>
+                                    <th>open</th>
+                                    <th>close</th>
+                                    <th>volume</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+    </section>
+    <!-- /.content -->
+</div>
+
+
+

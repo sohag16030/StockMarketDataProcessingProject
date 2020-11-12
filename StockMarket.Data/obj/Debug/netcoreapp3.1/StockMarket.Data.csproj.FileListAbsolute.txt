@@ -1,0 +1,9 @@
+H:\MagPie\StockMarket.Web\StockMarket.Data\bin\Debug\netcoreapp3.1\StockMarket.Data.deps.json
+H:\MagPie\StockMarket.Web\StockMarket.Data\bin\Debug\netcoreapp3.1\StockMarket.Data.dll
+H:\MagPie\StockMarket.Web\StockMarket.Data\bin\Debug\netcoreapp3.1\StockMarket.Data.pdb
+H:\MagPie\StockMarket.Web\StockMarket.Data\obj\Debug\netcoreapp3.1\StockMarket.Data.csprojAssemblyReference.cache
+H:\MagPie\StockMarket.Web\StockMarket.Data\obj\Debug\netcoreapp3.1\StockMarket.Data.AssemblyInfoInputs.cache
+H:\MagPie\StockMarket.Web\StockMarket.Data\obj\Debug\netcoreapp3.1\StockMarket.Data.AssemblyInfo.cs
+H:\MagPie\StockMarket.Web\StockMarket.Data\obj\Debug\netcoreapp3.1\StockMarket.Data.csproj.CoreCompileInputs.cache
+H:\MagPie\StockMarket.Web\StockMarket.Data\obj\Debug\netcoreapp3.1\StockMarket.Data.dll
+H:\MagPie\StockMarket.Web\StockMarket.Data\obj\Debug\netcoreapp3.1\StockMarket.Data.pdb
